@@ -70,6 +70,44 @@ def operacoes_basicas():
 operacoes_basicas()
 ```
 
+##Exemplo 4: Verificar se um número é par ou ímpar
+
+**Descrição:**
+Este programa solicita que o usuário insira um número inteiro e verifica se o número é par ou ímpar.
+
+```python
+# Função para verificar se um número é par ou ímpar
+def verificar_par_impar():
+    numero = int(input("Digite um número inteiro: "))
+    
+    if numero % 2 == 0:
+        print(f"{numero} é um número par.")
+    else:
+        print(f"{numero} é um número ímpar.")
+
+# Chama a função
+verificar_par_impar()
+```
+
+##Exemplo 5: Calcular a média de três números
+
+**Descrição:**
+Este programa recebe três números do usuário, calcula e exibe a média aritmética desses números.
+
+```python
+# Função para calcular a média de três números
+def calcular_media():
+    numero1 = float(input("Digite o primeiro número: "))
+    numero2 = float(input("Digite o segundo número: "))
+    numero3 = float(input("Digite o terceiro número: "))
+    
+    media = (numero1 + numero2 + numero3) / 3
+    print(f"A média dos números é: {media}")
+
+# Chama a função
+calcular_media()
+```
+
 ## Como executar os códigos
 
 1. Faça o clone do repositório ou baixe os arquivos individualmente.
